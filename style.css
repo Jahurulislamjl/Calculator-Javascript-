@@ -10,12 +10,12 @@
 
 input[type=text]{
     width: 100%;
-    height: 50px;
+    height: 60px;
     border: none;
     border-radius: 2px;
     margin-bottom: 5px;
     background: rgb(230, 230, 230);
-    font-size: 26px;
+    font-size: 30px;
     color: #777474;
     text-align: right;
     padding: 3px;
@@ -45,5 +45,5 @@ input[type=button]{
 }
 
 hr{
-    margin: 15px 0;
+    margin: 25px 0;
 }

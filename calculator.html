@@ -19,10 +19,10 @@
                 <input type="button" value="&larr;" onclick="calculator.screen.value = calculator.screen.value.slice(0,-1)" >
             <br>
 
-                <input type="button" value="Sin" onclick="calculator.screen.value = Math.sqrt(calculator.screen.value)">
-                <input type="button" value="Cos" onclick="calculator.screen.value = ''">
-                <input type="button" value="Tan" onclick="calculator.screen.value = ''">
-                <input type="button" value="Log" onclick="calculator.screen.value = calculator.screen.value.slice(0,-1)" >
+                <input type="button" value="Sin" onclick="calculator.screen.value = Math.sin(calculator.screen.value*(22/7/180))">
+                <input type="button" value="Cos" onclick="calculator.screen.value = Math.cos(calculator.screen.value*(22/7/180))">
+                <input type="button" value="Tan" onclick="calculator.screen.value = Math.tan(calculator.screen.value*(22/7/180))">
+                <input type="button" value="Log" onclick="calculator.screen.value = Math.log(calculator.screen.value)" >
             </div>
 
             <input type="button" value="7" onclick="calculator.screen.value += '7'">
