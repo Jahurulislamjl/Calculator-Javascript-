@@ -11,11 +11,19 @@
         <form name="calculator">
             <input type="text" name="screen" disabled>
             <hr>
-            <input type="button" value="&radic;" onclick="calculator.screen.value = Math.sqrt(calculator.screen.value)">
-            <input type="button" value="CE" onclick="calculator.screen.value = ''">
-            <input type="button" value="C" onclick="calculator.screen.value = ''">
-            <input type="button" value="&larr;" onclick="calculator.screen.value = calculator.screen.value.slice(0,-1)" >
+            
+            <div class="scientific">
+                <input type="button" value="&radic;" onclick="calculator.screen.value = Math.sqrt(calculator.screen.value)">
+                <input type="button" value="CE" onclick="calculator.screen.value = ''">
+                <input type="button" value="C" onclick="calculator.screen.value = ''">
+                <input type="button" value="&larr;" onclick="calculator.screen.value = calculator.screen.value.slice(0,-1)" >
             <br>
+
+                <input type="button" value="Sin" onclick="calculator.screen.value = Math.sqrt(calculator.screen.value)">
+                <input type="button" value="Cos" onclick="calculator.screen.value = ''">
+                <input type="button" value="Tan" onclick="calculator.screen.value = ''">
+                <input type="button" value="Log" onclick="calculator.screen.value = calculator.screen.value.slice(0,-1)" >
+            </div>
 
             <input type="button" value="7" onclick="calculator.screen.value += '7'">
             <input type="button" value="8" onclick="calculator.screen.value += '8'">
