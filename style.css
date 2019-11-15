@@ -1,7 +1,7 @@
 .container{
     height: 400px;
     width: 200px;
-    background: rgb(162, 162, 162);
+    background: rgb(90, 86, 86);
     padding: 20px;
     margin: 20px auto;
     border-radius: 3px;
@@ -37,11 +37,11 @@ input[type=button]{
     width: 40px;
     height: 40px;
     margin: 3px;
-    font-size: 18px;
+    font-size: 20px;
     border-radius: 5px 5px;
     border: none;
-    background: rgb(88, 64, 64);
-    color: white;
+    background: rgb(204, 203, 203);
+    color:black;
 }
 
 hr{
